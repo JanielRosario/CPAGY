@@ -1,12 +1,19 @@
 // ==UserScript==
 // @name         Carlos AgencyZoom Google Review Helper
-// @namespace    https://cpagy.com/
+// @namespace    https://github.com/JanielRosario/CPAGY/userscripts/carlos-google-review-helper
 // @version      0.1.0
 // @description  Checks Carlos Perez Agency Google reviews for the active AgencyZoom SMS contact and fills the right SMS draft.
+// @author       Carlos Perez Agency
+// @homepageURL  https://github.com/JanielRosario/CPAGY
+// @supportURL   https://github.com/JanielRosario/CPAGY/issues
 // @match        https://app.agencyzoom.com/integration/messages/index*
 // @connect      qkjbpszojgyvhzrlopys.supabase.co
 // @grant        GM_xmlhttpRequest
 // @run-at       document-idle
+// @noframes
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=agencyzoom.com
+// @updateURL    https://raw.githubusercontent.com/JanielRosario/CPAGY/main/userscripts/carlos-google-review-helper.user.js
+// @downloadURL  https://raw.githubusercontent.com/JanielRosario/CPAGY/main/userscripts/carlos-google-review-helper.user.js
 // ==/UserScript==
 
 (function attachCarlosReviewHelper() {
